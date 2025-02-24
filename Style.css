@@ -1,0 +1,478 @@
+
+
+#All{
+    height:1318px;
+    width:1380px;
+    margin: auto;
+    font-family: "Noto Sans Mono", serif;
+    font-optical-sizing: auto;
+    border: 3px solid rgb(158, 158, 158);
+    border-radius: 5px;
+}
+a:link {
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+  }
+a:visited {
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+  }
+a:hover {
+    color: White;
+    text-decoration: none;
+  }
+a:active {
+    color: White;
+    text-decoration: none;
+  }
+
+#Top {
+    display:flex;
+    background-color: rgb(216, 216, 216);
+    color: rgb(68, 68, 68);
+}
+
+#Bio{
+    margin-left: 10px;
+}
+
+#Contact{
+    width:50%;
+    margin-right: 10px;
+}
+
+#Email{
+    display:flex;
+    justify-content: right;
+    margin-right: 5px;
+    padding-top: 7px;
+}
+
+#Email i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+#Phone{
+    display:flex;
+    justify-content: right;
+    margin-right: 5px;
+}
+
+#Phone i{
+    font-size: 30px;
+    margin-left: 10px;
+    padding-top:7px;
+}
+
+#Git{
+    display:flex;
+    justify-content: right;
+    margin-right: 5px;
+}
+
+#Git a{
+    padding-top:7px;
+}
+
+#Git i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+#Linked{
+    display:flex;
+    justify-content: right;
+    margin-right: 10px;
+}
+
+#Linked i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+
+
+#Middle {
+display:flex;
+background-color: white;
+color:black;
+}
+
+#Left{
+margin-left: 10px;
+margin-right: 8px;
+color: rgb(68, 68, 68);
+width: 50%;
+}
+
+#Prog{
+    display: flex;
+    text-decoration: underline;
+}
+#Prog i{
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 10px;
+    padding-top: 20px;
+}
+
+#educ{
+    display: flex;
+    text-decoration: underline;
+}
+#educ i{
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 10px;
+    padding-top: 20px;
+}
+
+#AllEdu {
+    display: flex;
+}
+
+#JustEdu{
+    width:100%;
+}
+
+#Split1Ed {
+    display: flex;
+color: rgb(11, 121, 211);
+}
+
+#EdYear1 {
+    display: flex;
+}
+#EdYear1 p{
+    color: rgb(11, 121, 211);
+    margin-left: 167px;
+    font-size: larger;
+}
+
+#Split2Ed {
+    display: flex;
+    color: rgb(11, 121, 211);
+}
+
+#EdYear2 {
+    display: flex;
+}
+#EdYear2 p{
+    color: rgb(11, 121, 211);
+    margin-left: 333px;
+    font-size: larger;
+}
+
+#Split3Ed {
+    display: flex;
+    color: rgb(11, 121, 211);
+}
+
+#EdYear3 {
+    display: flex;
+    width:100%;
+}
+#EdYear3 p{
+    color: rgb(11, 121, 211);
+    margin-left: 232px;
+    font-size: larger;
+}
+
+#Inst1{
+    display: flex;
+    width: 50%;
+}
+#Inst1 i{
+    font-size: 20px;
+    margin-left: 2px;
+    margin-right: 5px;
+    padding-top: 20px;
+}
+
+
+#Location1{
+    display: flex;
+    width: 48%;
+    display:flex;
+    justify-content: right;
+}
+#Location1 i{
+    font-size: 20px;
+    margin-left: 2px;
+    margin-right: 5px;
+    padding-top: 20px;
+}
+
+
+#Inst2{
+    display: flex;
+    width: 50%;
+}
+#Inst2 i{
+    font-size: 20px;
+    margin-left: 2px;
+    margin-right: 5px;
+    padding-top: 20px;
+}
+
+
+#Location2{
+    display: flex;
+    width: 48%;
+    display:flex;
+    justify-content: right;
+}
+#Location2 i{
+    font-size: 20px;
+    margin-left: 2px;
+    margin-right: 5px;
+    padding-top: 20px;
+}
+
+#Inst3{
+    display: flex;
+    width: 50%;
+}
+#Inst3 i{
+    font-size: 20px;
+    margin-left: 2px;
+    margin-right: 5px;
+    padding-top: 20px;
+}
+
+#Location3{
+    display: flex;
+    width: 48%;
+    display:flex;
+    justify-content: right;
+}
+#Location3 i{
+    font-size: 20px;
+    margin-left: 2px;
+    margin-right: 5px;
+    padding-top: 20px;
+}
+
+
+
+
+
+#Right{
+margin-right: 15px;
+margin-left: 6px;
+color: rgb(68, 68, 68);
+width: 50%
+}
+
+#Skillz{
+    display: flex;
+    text-decoration: underline;
+}
+#Skillz i{
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 10px;
+    padding-top: 20px;
+}
+
+#Skills {
+    display:flex;
+}
+
+#Sk1{
+    border-radius: 4px;
+background-color: rgb(11, 121, 211);
+padding: 6px;
+margin-left: 25px;
+color:white;
+}
+
+#Sk2{
+    border-radius: 4px;
+background-color: rgb(11, 121, 211);
+padding: 6px;
+margin-left: 25px;
+color:white;
+}
+
+#Sk3{
+    border-radius: 4px;
+background-color: rgb(11, 121, 211);
+padding: 6px;
+margin-left: 25px;
+color:white;
+}
+
+#Sk4{
+    border-radius: 4px;
+background-color: rgb(11, 121, 211);
+padding: 6px;
+margin-left: 25px;
+color:white;
+}
+
+
+
+#work{
+    display: flex;
+    text-decoration: underline;
+}
+#work i{
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 10px;
+    padding-top: 20px;
+}
+
+#AllWork {
+    display: flex;
+}
+
+#Spli1Wo {
+    display: flex;
+    color: rgb(11, 121, 211);
+}
+
+#Spli2Wo {
+    display: flex;
+    color: rgb(11, 121, 211);
+}
+
+#Spli3Wo {
+    display: flex;
+    color: rgb(11, 121, 211);
+}
+
+#title1{
+    display: flex;
+    width: 50%;
+}
+#title1 i{
+    font-size: 20px;
+    margin-left: 2px;
+    margin-right: 5px;
+    padding-top: 20px;
+}
+
+#WoYear1{
+display: flex;
+}
+#WoYear1 p{
+    color: rgb(11, 121, 211);
+    margin-left: 167px;
+    font-size: larger;
+}
+
+#Loc1{
+    display: flex;
+    width: 48%;
+    display:flex;
+    justify-content: right;
+}
+#Loc1 i{
+    font-size: 20px;
+    margin-left: 2px;
+    margin-right: 5px;
+    padding-top: 20px;
+}
+
+
+#title2{
+    display: flex;
+    width: 50%;
+}
+#title2 i{
+    font-size: 20px;
+    margin-left: 2px;
+    margin-right: 5px;
+    padding-top: 20px;
+}
+
+#WoYear2{
+    display: flex;
+    }
+#WoYear2 p{
+        color: rgb(11, 121, 211);
+        margin-left: 313px;
+        font-size: larger;
+    }
+
+#Loc2{
+    display: flex;
+    width: 48%;
+    display:flex;
+    justify-content: right;
+}
+#Loc2 i{
+    font-size: 20px;
+    margin-left: 2px;
+    margin-right: 5px;
+    padding-top: 20px;
+}
+
+
+#title3{
+    display: flex;
+    width: 50%;
+}
+#title3 i{
+    font-size: 20px;
+    margin-left: 2px;
+    margin-right: 5px;
+    padding-top: 20px;
+}
+
+#WoYear3{
+    display: flex;
+    }
+#WoYear3 p{
+        color: rgb(11, 121, 211);
+        margin-left: 246px;
+        font-size: larger;
+    }
+
+#Loc3{
+    display: flex;
+    width: 48%;
+    display:flex;
+    justify-content: right;
+}
+#Loc3 i{
+    font-size: 20px;
+    margin-left: 2px;
+    margin-right: 5px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+#Bottom {
+    display: flex;
+    background-color: rgb(197, 197, 197);
+    color: rgb(68, 68, 68);
+    width:100%;
+}
+
+#BName{
+    width: 50%;
+    margin-left: 10px;
+}
+
+#BEmail {
+    display:flex;
+    justify-content: right;
+    font-size: large;
+    width:50%;
+    padding-top: 20px;
+}
+#BEmail i{
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 20px;
+    padding-top: 15px;
+}
